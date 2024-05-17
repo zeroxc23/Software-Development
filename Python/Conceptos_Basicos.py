@@ -45,11 +45,11 @@ Num:int=2
 print(Num)
 
 'Variable tipo Input'
-'''''Nombre=input("Ingresa tu nombre:")
+Nombre=input("Ingresa tu nombre:")
 Edad=input("Ingrese su edad:")
 print("Tu nombre es:",Nombre)
 print("Tu edad es:",Edad)
-'''''
+
 'Operadores'
 
 'Operaciones con numeros enteros'
