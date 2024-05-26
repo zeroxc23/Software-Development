@@ -81,3 +81,54 @@ print(1<5 or 8<1) # or si alguno es correcto
 print(3 > 4 and "Hola" > "Python") # and si los dos son correctos
 print(not (3 > 4)) #not Forzar si es correcto o no
 
+'Strings'
+Mi_string='Mi otro string'
+
+'Len Funciona para contar los caracteres incluyendo el espacio= ' ' '
+print(len('Hola'))
+'----------------------------------------------------'
+'Modo de usar los strings'
+print('Hola\n como\n estan')# \n significa salto de linea
+print(' \tHola mundo ')# \t significa tabulación
+print('\\t Hola Mundo \\n._.') #Escapado
+
+
+'Formateo'
+
+name, surname, age = "Brais", "Moure", 35
+print("Mi nombre es {} {} y mi edad es {}".format(name, surname, age))
+print("Mi nombre es %s %s y mi edad es %d" % (name, surname, age))
+print("Mi nombre es " + name + " " + surname + " y mi edad es " + str(age))
+print(f"Mi nombre es {name} {surname} y mi edad es {age}")
+
+'División'
+Divi= 'LENGUAJE'
+print(Divi[1:3])
+print(Divi[1:])
+print(Divi[-2])
+print(Divi[0:6:2])
+
+'Funciones del lenguaje'
+# Convierte la primera letra de la cadena en mayúscula y el resto en minúscula.
+print(Divi.capitalize())
+
+# Convierte todas las letras de la cadena en mayúsculas.
+print(Divi.upper())
+
+# Cuenta cuántas veces aparece la letra 'N' en la cadena.
+print(Divi.count("N"))
+
+# Verifica si la cadena está compuesta solo por números.
+print(Divi.isnumeric())
+
+# Verifica si la cadena '1' está compuesta solo por números.
+print("1".isnumeric())
+
+# Convierte todas las letras de la cadena en minúsculas.
+print(Divi.lower())
+
+# Convierte todas las letras de la cadena en minúsculas y luego verifica si la cadena resultante está en mayúsculas (siempre será False).
+print(Divi.lower().isupper())
+
+# Verifica si la cadena comienza con la subcadena "LEN".
+print(Divi.startswith("LEN"))
