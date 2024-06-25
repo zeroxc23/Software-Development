@@ -14,6 +14,7 @@ pero
 con 
 comillas 
 simples'''
+
 #Type= sirve para saber el tipo de dato
 print(type("Soy un dato str"))  # Tipo 'str'
 print(type(5))  # Tipo 'int'
@@ -132,3 +133,46 @@ print(Divi.lower().isupper())
 
 # Verifica si la cadena comienza con la subcadena "LEN".
 print(Divi.startswith("LEN"))
+
+
+'----------------------------------------------------'
+#Listas se utilizan para almacenar múltiples elementos en una sola variable.
+thislist = ["apple", "banana", "cherry", "apple", "cherry"]
+print(thislist)
+
+
+my_list = [35, 24, 62, 52, 30, 30, 17]
+print(my_list)
+
+#Tuplas se utilizan para almacenar múltiples elementos en una sola variable.
+
+my_tuple = (35, 1.77, "Brais", "Moure", "Brais")
+print(my_tuple)
+
+
+thistuple = ("apple", "banana", "cherry", "apple", "cherry")
+print(thistuple)
+
+#Sets se utilizan para almacenar múltiples elementos en una sola variable.
+thisset = {"apple", "banana", "cherry"}
+print(thisset)
+
+#Diccionarios se utilizan para almacenar valores de datos en pares clave:value.
+
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict)
+
+
+my_dict = {
+    "Nombre": "Brais",
+    "Apellido": "Moure",
+    "Edad": 35,
+    "Lenguajes": {"Python", "Swift", "Kotlin"},
+    1: 1.77
+}
+
+print(my_dict)
