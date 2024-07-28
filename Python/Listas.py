@@ -26,5 +26,13 @@ print(listx[1])
 #Aqui otro ejemplo 
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(thislist[2:5])# Al usar [2:5] el print mostrara las variables desde la posición 2 hasta la 5 osea ['cherry', 'orange', 'kiwi']
-print(thislist[:4]) # Al usar [:4] el print mostrara desde la posición 0 hasta 4
-print(thislist[2:])#  Al usar [:4] el print mostrara desde la posición 2 hasta el final de la lista
+print(thislist[:4])# Al usar [:4] el print mostrara desde la posición 0 hasta 4
+print(thislist[2:])# Al usar [:4] el print mostrara desde la posición 2 hasta el final de la lista
+print(thislist[-1])# Nota tambien para mostrar por ubicación al usar - se llama a la inversa el orden
+#Al usar [-1] el print mostrara el variable de la ultima posición 
+
+#Ahora mostraremos como cambiar valores dentro de la lista
+lista= ["apple", "banana", "cherry"]
+lista[2]="Kiwi" # La función de este codigo se basa en nombrar la ubicación
+# luego agregar el nuevo valor en la lista
+print(lista)
