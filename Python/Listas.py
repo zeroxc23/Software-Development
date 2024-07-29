@@ -36,3 +36,48 @@ lista= ["apple", "banana", "cherry"]
 lista[2]="Kiwi" # La función de este codigo se basa en nombrar la ubicación
 # luego agregar el nuevo valor en la lista
 print(lista)
+
+
+# Tambien en las listas se puede agregar y eliminar variables
+ListA=["Manzana","Pera","Kiwi"]
+ListA.append("Mora") # La función de append es agregar al final de la lista la variable que escojamos
+print(ListA)
+
+#Segundo ejemplo de agregación de variables 
+ListB=["Manzana","Pera","Kiwi"]
+ListB.insert(1,"Lulo") # La función de insert es agregar la variable en la ubicación que deseemos
+print(ListB)
+
+#Otro ejemplo
+
+ListC=["Maracuya","Mora","Manzana"]
+ListD=["Lulo","Kiwi","Mango"]
+ListC.extend(ListD) # La función de extend es agregar las variables de una lista a otra
+print(ListC)
+
+#Ahora vamos con los ejemplos de eliminar variables
+ListE=["Manzana","Pera","Kiwi","Mango"]
+ListE.remove("Pera") # La función de remove es eliminar la variable que deseemos
+print(ListE)
+
+# Ejemplo #2
+
+ListF=["Manzana","Pera","Kiwi","Mango"]
+ListF.pop(1)# Al usar el pop se elimina la variable utilizando su posición y al dejarlo vacio se eliminara el ultimo variable
+print(ListF) 
+
+ListG=["Carne","Pollo","Bistec"]
+del ListG[0] # La función de del es eliminar la variable utilizando su posición y 
+# al dejar vacio[] la lista se eliminara completamente 
+print(ListG)
+
+ListH=["Mañana","Tarde","Noche"]
+ListH.clear() # La función de clear es eliminar todas las variables de la lista pero aun permaneciendo la lista
+print(ListH)
+
+#Para finalizar aqui mas funciones que se utilizan en las listas
+ListI=["34","22","124"]
+ListI.sort() # La función de sort es ordenar las variables de la lista de menor a mayor
+ListI.reverse()#La función de reverse es ordenar las variables a la inversa de su orden original
+ListJ=[]
+ListJ.copy(ListI)# La función copy es copiar el contenido de una lista a otra vacia 
