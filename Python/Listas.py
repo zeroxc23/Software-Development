@@ -81,3 +81,20 @@ ListI.sort() # La función de sort es ordenar las variables de la lista de menor
 ListI.reverse()#La función de reverse es ordenar las variables a la inversa de su orden original
 ListJ=[]
 ListJ.copy(ListI)# La función copy es copiar el contenido de una lista a otra vacia 
+
+
+#Entonces para considerar aqui se anotaran los metodos que usan las listas
+
+"""
+append() Añade un elemento al final de la lista
+clear() Elimina todos los elementos de la lista
+copy() Devuelve una copia de la lista
+count() Devuelve el número de elementos con el valor especificado
+extend() Añade los elementos de una lista (o cualquier iterable), al final de la lista actual
+index() Devuelve el índice del primer elemento con el valor especificado
+insert() Añade un elemento en la posición especificada
+pop() Elimina el elemento en la posición especificada
+remove() Elimina el elemento con el valor especificado
+reverse() Invierte el orden de la lista
+sort() Ordena la lista
+"""
