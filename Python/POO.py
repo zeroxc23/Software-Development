@@ -13,7 +13,7 @@ print(z.x)
 # Todas las clases tienen una función llamada __init__(), 
 # que siempre se ejecuta cuando la clase se está iniciando.
 
-#Se utiliza la función __init__() para asignar valosres a las 
+#Se utiliza la función __init__() para asignar valores a las 
 # propiedades del objeto u operaciones si es necesario.
 
 class Persona:
