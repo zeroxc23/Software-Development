@@ -1,7 +1,7 @@
 #La Programación Orientada a Objetos (POO) en Python es un paradigma de programación que se basa en la creación 
 # y manipulación de objetos, los cuales son instancias de clases.ç
 #Ejemplo
-class Miclase:     #Esta es laforma en la que la clase se define
+class Miclase:     #Esta es la forma en la que la clase se define
     x=12           #Esto seria la propiedad de la clase
 
 z=Miclase() #Desde aqui es cuando se creea el objeto
